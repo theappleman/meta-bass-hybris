@@ -10,7 +10,6 @@ COMPATIBLE_MACHINE = "bass"
 
 SRC_URI = "git://android.googlesource.com/kernel/msm;branch=android-msm-nemo-3.10-marshmallow-mr1-wear-release;protocol=https \
     file://0001-static-inline-in-ARM-ftrace.h.patch;striplevel=1 \
-    file://0002-Backport-mainline-3.13-Bluetooth-subsystem.patch \
     file://defconfig \
     file://img_info "
 SRCREV = "504f3357f3ef296bf5ccbfe05df2025fa41eb354"
