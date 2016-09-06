@@ -6,7 +6,7 @@ SUMMARY = "Android kernel for the LG Watch Urbane 2 LTE"
 HOMEPAGE = "https://android.googlesource.com/"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
-COMPATIBLE_MACHINE = "bass"
+COMPATIBLE_MACHINE = "nemo"
 
 SRC_URI = "git://android.googlesource.com/kernel/msm;branch=android-msm-nemo-3.10-marshmallow-mr1-wear-release;protocol=https \
     file://0001-static-inline-in-ARM-ftrace.h.patch;striplevel=1 \
