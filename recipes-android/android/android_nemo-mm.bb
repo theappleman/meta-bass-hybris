@@ -2,7 +2,7 @@ inherit gettext
 
 SUMMARY = "Downloads the LG Watch Urbane 2 LTE /system and /usr/include/android folders and installs them for libhybris"
 LICENSE = "CLOSED"
-SRC_URI = "http://asteroid.objects.cdn.dream.io/nemo/system.tar.gz"
+SRC_URI = "https://asteroid.objects.cdn.dream.io/nemo/system.tar.gz"
 SRC_URI[md5sum] = "d27fb0b17d1b6604f06dd81beaa6141e"
 SRC_URI[sha256sum] = "938ffcfd14f6d46e8713915f637888a7ee1fa5dac9bf38d449b11083395bad89"
 PV = "marshmallow"
